@@ -13,7 +13,6 @@ function App() {
 
   return (
     <div className="App">
-      <header className="App-header">
         <h1>{countries.length}</h1>
 
         <ul>
@@ -21,7 +20,6 @@ function App() {
               countries.map(country => <li>{country.name}</li>)
             }
         </ul>
-      </header>
     </div>
   );
 }
