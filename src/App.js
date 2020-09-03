@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="App">
       {    
-          countries.map(country => <Country name={country.name}></Country>)
+          countries.map(country => <Country name={country.country}></Country>)
       }
     </div>
   );
