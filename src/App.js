@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="App">
       {    
-          countries.map(country => <Country name={country.country}></Country>)
+          countries.map(country => <Country country={country} key={country.alpha3Code}></Country>)
       }
     </div>
   );
